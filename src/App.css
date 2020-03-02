@@ -1,38 +1,108 @@
 .App {
+  height: 100vh;
+  background-color: #ffff;
+}
+
+.jumbotron {
+  /* background-color: #0b61ff; */
+}
+
+.calculator-area {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  margin-top: 100px;
+}
+
+.jumbotron .container {
+  height: 100px;
+}
+
+.form-container {
+  background-color: white;
+  margin-top: -150px;
+}
+
+.hvac-usa {
+  width: 80%;
+  margin-top: 100px;
+  margin-left: 75px;
+  margin-bottom: 50px;
+}
+
+.hvac-recommend {
+  width: 80%;
+
+  margin-left: 75px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.span-slider {
+  width: 200px;
+  text-align: center;
+}
+.select-css {
+  display: block;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: black;
+  line-height: 1.3;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #bdbdbd;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+  border-radius: 0.5em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+    linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+}
+.select-css::-ms-expand {
+  display: none;
+}
+.select-css:hover {
+  border-color: #bdbdbd;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.select-css:focus {
+  border-color: #fff;
+  box-shadow: 0 0 1px 1px #bdbdbd;
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: black;
+  outline: none;
+}
+.select-css option {
+  font-weight: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-glass {
+  background-color: transparent;
+  color: black;
+  outline: none;
+}
+
+.btn-glass:hover {
+  background-color: #bdbdbd;
   color: white;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-glass:focus {
+  background-color: #bdbdbd;
+  box-shadow: 0 0 1px 1px #bdbdbd;
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: white;
+  outline: none;
 }
